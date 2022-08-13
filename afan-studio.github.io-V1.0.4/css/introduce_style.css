@@ -1,0 +1,72 @@
+.introduce{
+
+}
+
+@font-face {
+    font-family: "叶根友毛笔行书2.0版";
+    src: url("../res/YGYXSZITI2.0.TTF");
+}
+
+@font-face {
+    font-family: "KaiTi";
+    src: url("../res/SIMKAI.TTF");
+}
+
+#introduce_card_div{
+    margin-top: -5%;
+    margin-left:15%;
+    margin-bottom:2%;
+    background-color:#ffffff;
+	border-radius:20px;
+	width:70%;
+    box-shadow: rgba(92, 92, 92, 0.69) 10px 10px 10px;
+    border: 1px solid #000000;
+    vertical-align:middle;
+    float:left;
+}
+
+#introduce_card_img{
+    margin-left:1%;
+    padding-top:1%;
+    padding-left:1%;
+    padding-bottom:1%;
+    max-width:100%;
+    max-height:100%;
+    width: auto;
+	height: auto;
+    display:inline;
+    float:left;
+}
+
+#introduce_card_p {
+    padding-left: 10%;
+    padding-top: 10px;
+	padding-right: 10%;
+    font-family: KaiTi;
+    color: black;
+    font-size: 22px;
+    float:left;
+}
+
+#for_intr_img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#for_intr_p{
+	margin-bottom: 2%;
+}
+
+.introduce div {
+    display:inline;
+    margin-top:2%;
+    margin-left:1%;
+    margin-bottom:2%;
+}
+
+.introduce h1{
+    padding: 2%;
+    font-family:"叶根友毛笔行书2.0版";
+}
+	

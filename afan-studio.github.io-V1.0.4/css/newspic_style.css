@@ -1,0 +1,77 @@
+.indexes{
+			
+			height: 20px;
+			display: flex;
+            float: left;
+		}
+
+.indexes div{
+   display:inline-block;
+   float:left;
+   /*margin-left:15%;*/
+   width: 70%;
+}
+
+.indexes img{
+   display:inline-block;
+   float:left;
+   position:center;
+   /*padding-left:15%;*/
+}
+
+#demo1{
+   margin-top:2%;
+   max-width:70%;
+   max-height: 100%;
+   width:auto;
+   height:auto;
+   display:inline;
+   float:left;
+   margin-left: 15%;
+   transform: translateY(-50%);
+}
+		
+		.indexes li{
+            margin-top: 10%;
+			background: rgba(50, 50, 50, 0.3);
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			margin: 0 3px;
+            list-style:none;
+            float:left;
+		}
+		.indexes li.active{
+			background: rgba(50, 50, 50, 0.9);
+		}
+        .indexes ul{
+            
+        }
+		.arrow{
+			width: 50px;
+			height: 50px;
+			background: rgba(50, 50, 50, 0.5);
+            text-align:center;
+            font-size: 30px;
+            color: #ffffff;
+            display:inline-block;
+            border-radius: 50%;
+		}
+		.arrow.arrow-left{
+            float:left;
+			margin-left:11%;
+            position:relative;
+            display:inline-block;
+            margin-right:1%;
+            margin-top:12%;
+		}
+		.arrow.arrow-right{
+			float:right;
+            position:relative;
+            display:inline-block;
+            margin-right:11%;
+            margin-top: 12%;
+		}
+        .arrow:hover{
+            background: rgba(50, 50, 50, 0.7);
+        }
